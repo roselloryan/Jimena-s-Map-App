@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0261631C07CD930018E903 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0261621C07CD930018E903 /* Social.framework */; };
+		EA0261661C095C400018E903 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0261651C095C400018E903 /* MapViewController.m */; };
+		EA0261681C095EB80018E903 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0261671C095EB80018E903 /* CoreLocation.framework */; };
+		EA02616B1C0AD23E0018E903 /* StyleKitTrial.m in Sources */ = {isa = PBXBuildFile; fileRef = EA02616A1C0AD23E0018E903 /* StyleKitTrial.m */; };
+		EA82E07E1C1264D3007AB9D1 /* pinOnMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA82E07D1C1264D3007AB9D1 /* pinOnMapViewController.m */; };
+		EA82E0801C128E4E007AB9D1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA82E07F1C128E4E007AB9D1 /* MapKit.framework */; };
+		EA82E0831C15DDD4007AB9D1 /* UserCurrentLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA82E0821C15DDD4007AB9D1 /* UserCurrentLocation.m */; };
+		EAC0214F1C0BED2B00760675 /* StyleKitTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0214E1C0BED2B00760675 /* StyleKitTestButton.m */; };
+		EAC021521C0CE36800760675 /* CrazyButtonStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC021511C0CE36800760675 /* CrazyButtonStyleKit.m */; };
+		EAC021551C0CE40000760675 /* CrazyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC021541C0CE40000760675 /* CrazyButton.m */; };
+		EAC021641C0DF5D000760675 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC021631C0DF5D000760675 /* ShareViewController.m */; };
+		EAC021671C0DF5D000760675 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC021651C0DF5D000760675 /* MainInterface.storyboard */; };
+		EAC0216C1C0DF5D000760675 /* SpotifyShareExt.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EAC021601C0DF5D000760675 /* SpotifyShareExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EAC021741C0DFB0800760675 /* SpotifyAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC021731C0DFB0800760675 /* SpotifyAPIClient.m */; };
+		EAC021771C0E0CA200760675 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC021751C0E0CA200760675 /* Bolts.framework */; };
+		EAC021781C0E0CA300760675 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC021761C0E0CA200760675 /* Parse.framework */; };
+		EAC0217A1C0E0CB700760675 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC021791C0E0CB700760675 /* ParseUI.framework */; };
+		EAC0217B1C0E1E0E00760675 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0261621C07CD930018E903 /* Social.framework */; };
+		EAC0217C1C0E1E1C00760675 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF1164A1C062BBF0044C8D2 /* Accounts.framework */; };
+		EAC0217D1C0E1E3900760675 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116481C062BAB0044C8D2 /* libsqlite3.tbd */; };
+		EAC0217E1C0E1E4700760675 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116461C062BA10044C8D2 /* libz.tbd */; };
+		EAC0217F1C0E1E5A00760675 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116441C062B950044C8D2 /* SystemConfiguration.framework */; };
+		EAC021801C0E1E7100760675 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116421C062B870044C8D2 /* StoreKit.framework */; };
+		EAC021811C0E1E7800760675 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116401C062B7D0044C8D2 /* Security.framework */; };
+		EAC021821C0E1E8800760675 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF1163E1C062B720044C8D2 /* QuartzCore.framework */; };
+		EAC021831C0E1E9300760675 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF1163C1C062B6A0044C8D2 /* CoreGraphics.framework */; };
+		EAC021841C0E1EA200760675 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF1163A1C062B4D0044C8D2 /* CFNetwork.framework */; };
+		EAC021851C0E1EB000760675 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116381C062B430044C8D2 /* AudioToolbox.framework */; };
+		EAC021901C0E58C400760675 /* SpotifyTrackCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0218F1C0E58C400760675 /* SpotifyTrackCardView.m */; };
+		EAC021921C0E58E100760675 /* SpotifyTrackCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC021911C0E58E100760675 /* SpotifyTrackCardView.xib */; };
+		EAF1161D1C0629430044C8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF1161C1C0629430044C8D2 /* main.m */; };
+		EAF116201C0629430044C8D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF1161F1C0629430044C8D2 /* AppDelegate.m */; };
+		EAF116231C0629430044C8D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF116221C0629430044C8D2 /* ViewController.m */; };
+		EAF116261C0629430044C8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF116241C0629430044C8D2 /* Main.storyboard */; };
+		EAF116281C0629430044C8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF116271C0629430044C8D2 /* Assets.xcassets */; };
+		EAF1162B1C0629430044C8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF116291C0629430044C8D2 /* LaunchScreen.storyboard */; };
+		EAF116331C062A670044C8D2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116321C062A670044C8D2 /* Bolts.framework */; };
+		EAF116351C062A790044C8D2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116341C062A790044C8D2 /* Parse.framework */; };
+		EAF116391C062B430044C8D2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116381C062B430044C8D2 /* AudioToolbox.framework */; };
+		EAF1163B1C062B4D0044C8D2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF1163A1C062B4D0044C8D2 /* CFNetwork.framework */; };
+		EAF1163D1C062B6A0044C8D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF1163C1C062B6A0044C8D2 /* CoreGraphics.framework */; };
+		EAF1163F1C062B720044C8D2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF1163E1C062B720044C8D2 /* QuartzCore.framework */; };
+		EAF116411C062B7D0044C8D2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116401C062B7D0044C8D2 /* Security.framework */; };
+		EAF116431C062B870044C8D2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116421C062B870044C8D2 /* StoreKit.framework */; };
+		EAF116451C062B950044C8D2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116441C062B950044C8D2 /* SystemConfiguration.framework */; };
+		EAF116471C062BA10044C8D2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116461C062BA10044C8D2 /* libz.tbd */; };
+		EAF116491C062BAB0044C8D2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF116481C062BAB0044C8D2 /* libsqlite3.tbd */; };
+		EAF1164B1C062BBF0044C8D2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF1164A1C062BBF0044C8D2 /* Accounts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAC021691C0DF5D000760675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF116101C0629430044C8D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC0215F1C0DF5D000760675;
+			remoteInfo = SpotifyShareExt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EAC0216B1C0DF5D000760675 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EAC0216C1C0DF5D000760675 /* SpotifyShareExt.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA0261621C07CD930018E903 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EA0261641C095C400018E903 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EA0261651C095C400018E903 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		EA0261671C095EB80018E903 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EA0261691C0AD23E0018E903 /* StyleKitTrial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleKitTrial.h; sourceTree = SOURCE_ROOT; };
+		EA02616A1C0AD23E0018E903 /* StyleKitTrial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleKitTrial.m; sourceTree = SOURCE_ROOT; };
+		EA82E07C1C1264D3007AB9D1 /* pinOnMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinOnMapViewController.h; sourceTree = "<group>"; };
+		EA82E07D1C1264D3007AB9D1 /* pinOnMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pinOnMapViewController.m; sourceTree = "<group>"; };
+		EA82E07F1C128E4E007AB9D1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EA82E0811C15DDD4007AB9D1 /* UserCurrentLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCurrentLocation.h; sourceTree = "<group>"; };
+		EA82E0821C15DDD4007AB9D1 /* UserCurrentLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCurrentLocation.m; sourceTree = "<group>"; };
+		EAC0214D1C0BED2B00760675 /* StyleKitTestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleKitTestButton.h; sourceTree = "<group>"; };
+		EAC0214E1C0BED2B00760675 /* StyleKitTestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleKitTestButton.m; sourceTree = "<group>"; };
+		EAC021501C0CE36700760675 /* CrazyButtonStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyButtonStyleKit.h; sourceTree = SOURCE_ROOT; };
+		EAC021511C0CE36800760675 /* CrazyButtonStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyButtonStyleKit.m; sourceTree = SOURCE_ROOT; };
+		EAC021531C0CE40000760675 /* CrazyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyButton.h; sourceTree = "<group>"; };
+		EAC021541C0CE40000760675 /* CrazyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyButton.m; sourceTree = "<group>"; };
+		EAC021601C0DF5D000760675 /* SpotifyShareExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpotifyShareExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC021621C0DF5D000760675 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		EAC021631C0DF5D000760675 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		EAC021661C0DF5D000760675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		EAC021681C0DF5D000760675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC021701C0DF6B900760675 /* Jimena's Map App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Jimena's Map App.entitlements"; sourceTree = "<group>"; };
+		EAC021711C0DF6F600760675 /* SpotifyShareExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SpotifyShareExt.entitlements; sourceTree = "<group>"; };
+		EAC021721C0DFB0800760675 /* SpotifyAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyAPIClient.h; sourceTree = "<group>"; };
+		EAC021731C0DFB0800760675 /* SpotifyAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotifyAPIClient.m; sourceTree = "<group>"; };
+		EAC021751C0E0CA200760675 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		EAC021761C0E0CA200760675 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		EAC021791C0E0CB700760675 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		EAC0218E1C0E58C400760675 /* SpotifyTrackCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyTrackCardView.h; sourceTree = "<group>"; };
+		EAC0218F1C0E58C400760675 /* SpotifyTrackCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotifyTrackCardView.m; sourceTree = "<group>"; };
+		EAC021911C0E58E100760675 /* SpotifyTrackCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpotifyTrackCardView.xib; sourceTree = "<group>"; };
+		EAF116181C0629430044C8D2 /* Jimena's Map App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jimena's Map App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF1161C1C0629430044C8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAF1161E1C0629430044C8D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAF1161F1C0629430044C8D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAF116211C0629430044C8D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAF116221C0629430044C8D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAF116251C0629430044C8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAF116271C0629430044C8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAF1162A1C0629430044C8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAF1162C1C0629430044C8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF116321C062A670044C8D2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Bolts.framework; sourceTree = "<group>"; };
+		EAF116341C062A790044C8D2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		EAF116361C062A850044C8D2 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		EAF116381C062B430044C8D2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EAF1163A1C062B4D0044C8D2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EAF1163C1C062B6A0044C8D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAF1163E1C062B720044C8D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EAF116401C062B7D0044C8D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EAF116421C062B870044C8D2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EAF116441C062B950044C8D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EAF116461C062BA10044C8D2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EAF116481C062BAB0044C8D2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EAF1164A1C062BBF0044C8D2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAC0215D1C0DF5D000760675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC021851C0E1EB000760675 /* AudioToolbox.framework in Frameworks */,
+				EAC021841C0E1EA200760675 /* CFNetwork.framework in Frameworks */,
+				EAC021831C0E1E9300760675 /* CoreGraphics.framework in Frameworks */,
+				EAC021821C0E1E8800760675 /* QuartzCore.framework in Frameworks */,
+				EAC021811C0E1E7800760675 /* Security.framework in Frameworks */,
+				EAC021801C0E1E7100760675 /* StoreKit.framework in Frameworks */,
+				EAC0217F1C0E1E5A00760675 /* SystemConfiguration.framework in Frameworks */,
+				EAC0217E1C0E1E4700760675 /* libz.tbd in Frameworks */,
+				EAC0217D1C0E1E3900760675 /* libsqlite3.tbd in Frameworks */,
+				EAC0217C1C0E1E1C00760675 /* Accounts.framework in Frameworks */,
+				EAC0217B1C0E1E0E00760675 /* Social.framework in Frameworks */,
+				EAC0217A1C0E0CB700760675 /* ParseUI.framework in Frameworks */,
+				EAC021781C0E0CA300760675 /* Parse.framework in Frameworks */,
+				EAC021771C0E0CA200760675 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF116151C0629430044C8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA82E0801C128E4E007AB9D1 /* MapKit.framework in Frameworks */,
+				EA0261681C095EB80018E903 /* CoreLocation.framework in Frameworks */,
+				EA0261631C07CD930018E903 /* Social.framework in Frameworks */,
+				EAF1164B1C062BBF0044C8D2 /* Accounts.framework in Frameworks */,
+				EAF116491C062BAB0044C8D2 /* libsqlite3.tbd in Frameworks */,
+				EAF116471C062BA10044C8D2 /* libz.tbd in Frameworks */,
+				EAF116451C062B950044C8D2 /* SystemConfiguration.framework in Frameworks */,
+				EAF116431C062B870044C8D2 /* StoreKit.framework in Frameworks */,
+				EAF116411C062B7D0044C8D2 /* Security.framework in Frameworks */,
+				EAF1163F1C062B720044C8D2 /* QuartzCore.framework in Frameworks */,
+				EAF1163D1C062B6A0044C8D2 /* CoreGraphics.framework in Frameworks */,
+				EAF1163B1C062B4D0044C8D2 /* CFNetwork.framework in Frameworks */,
+				EAF116391C062B430044C8D2 /* AudioToolbox.framework in Frameworks */,
+				EAF116351C062A790044C8D2 /* Parse.framework in Frameworks */,
+				EAF116331C062A670044C8D2 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAC021611C0DF5D000760675 /* SpotifyShareExt */ = {
+			isa = PBXGroup;
+			children = (
+				EAC021711C0DF6F600760675 /* SpotifyShareExt.entitlements */,
+				EAC021751C0E0CA200760675 /* Bolts.framework */,
+				EAC021761C0E0CA200760675 /* Parse.framework */,
+				EAC021791C0E0CB700760675 /* ParseUI.framework */,
+				EAC021721C0DFB0800760675 /* SpotifyAPIClient.h */,
+				EAC021731C0DFB0800760675 /* SpotifyAPIClient.m */,
+				EAC021621C0DF5D000760675 /* ShareViewController.h */,
+				EAC021631C0DF5D000760675 /* ShareViewController.m */,
+				EAC021651C0DF5D000760675 /* MainInterface.storyboard */,
+				EAC021681C0DF5D000760675 /* Info.plist */,
+			);
+			path = SpotifyShareExt;
+			sourceTree = "<group>";
+		};
+		EAF1160F1C0629430044C8D2 = {
+			isa = PBXGroup;
+			children = (
+				EAF1161A1C0629430044C8D2 /* Jimena's Map App */,
+				EAC021611C0DF5D000760675 /* SpotifyShareExt */,
+				EAF116191C0629430044C8D2 /* Products */,
+				EAF1164E1C062BE10044C8D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF116191C0629430044C8D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF116181C0629430044C8D2 /* Jimena's Map App.app */,
+				EAC021601C0DF5D000760675 /* SpotifyShareExt.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF1161A1C0629430044C8D2 /* Jimena's Map App */ = {
+			isa = PBXGroup;
+			children = (
+				EAC021701C0DF6B900760675 /* Jimena's Map App.entitlements */,
+				EAF1161E1C0629430044C8D2 /* AppDelegate.h */,
+				EAF1161F1C0629430044C8D2 /* AppDelegate.m */,
+				EAC021501C0CE36700760675 /* CrazyButtonStyleKit.h */,
+				EAC021531C0CE40000760675 /* CrazyButton.h */,
+				EAC021541C0CE40000760675 /* CrazyButton.m */,
+				EAC021511C0CE36800760675 /* CrazyButtonStyleKit.m */,
+				EAC0214D1C0BED2B00760675 /* StyleKitTestButton.h */,
+				EAC0214E1C0BED2B00760675 /* StyleKitTestButton.m */,
+				EA0261691C0AD23E0018E903 /* StyleKitTrial.h */,
+				EA02616A1C0AD23E0018E903 /* StyleKitTrial.m */,
+				EAF116211C0629430044C8D2 /* ViewController.h */,
+				EAF116221C0629430044C8D2 /* ViewController.m */,
+				EA0261641C095C400018E903 /* MapViewController.h */,
+				EA0261651C095C400018E903 /* MapViewController.m */,
+				EA82E0811C15DDD4007AB9D1 /* UserCurrentLocation.h */,
+				EA82E0821C15DDD4007AB9D1 /* UserCurrentLocation.m */,
+				EA82E07C1C1264D3007AB9D1 /* pinOnMapViewController.h */,
+				EA82E07D1C1264D3007AB9D1 /* pinOnMapViewController.m */,
+				EAF116241C0629430044C8D2 /* Main.storyboard */,
+				EAF116271C0629430044C8D2 /* Assets.xcassets */,
+				EAF116291C0629430044C8D2 /* LaunchScreen.storyboard */,
+				EAF1162C1C0629430044C8D2 /* Info.plist */,
+				EAF1161B1C0629430044C8D2 /* Supporting Files */,
+				EAC0218E1C0E58C400760675 /* SpotifyTrackCardView.h */,
+				EAC0218F1C0E58C400760675 /* SpotifyTrackCardView.m */,
+				EAC021911C0E58E100760675 /* SpotifyTrackCardView.xib */,
+			);
+			path = "Jimena's Map App";
+			sourceTree = "<group>";
+		};
+		EAF1161B1C0629430044C8D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF1161C1C0629430044C8D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAF1164E1C062BE10044C8D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA82E07F1C128E4E007AB9D1 /* MapKit.framework */,
+				EA0261671C095EB80018E903 /* CoreLocation.framework */,
+				EA0261621C07CD930018E903 /* Social.framework */,
+				EAF116481C062BAB0044C8D2 /* libsqlite3.tbd */,
+				EAF116461C062BA10044C8D2 /* libz.tbd */,
+				EAF1164A1C062BBF0044C8D2 /* Accounts.framework */,
+				EAF116441C062B950044C8D2 /* SystemConfiguration.framework */,
+				EAF116421C062B870044C8D2 /* StoreKit.framework */,
+				EAF116401C062B7D0044C8D2 /* Security.framework */,
+				EAF1163E1C062B720044C8D2 /* QuartzCore.framework */,
+				EAF1163C1C062B6A0044C8D2 /* CoreGraphics.framework */,
+				EAF1163A1C062B4D0044C8D2 /* CFNetwork.framework */,
+				EAF116381C062B430044C8D2 /* AudioToolbox.framework */,
+				EAF116361C062A850044C8D2 /* ParseUI.framework */,
+				EAF116341C062A790044C8D2 /* Parse.framework */,
+				EAF116321C062A670044C8D2 /* Bolts.framework */,
+			);
+			name = Frameworks;
+			path = "Jimena's Map App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAC0215F1C0DF5D000760675 /* SpotifyShareExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC0216F1C0DF5D000760675 /* Build configuration list for PBXNativeTarget "SpotifyShareExt" */;
+			buildPhases = (
+				EAC0215C1C0DF5D000760675 /* Sources */,
+				EAC0215D1C0DF5D000760675 /* Frameworks */,
+				EAC0215E1C0DF5D000760675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifyShareExt;
+			productName = SpotifyShareExt;
+			productReference = EAC021601C0DF5D000760675 /* SpotifyShareExt.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		EAF116171C0629430044C8D2 /* Jimena's Map App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF1162F1C0629440044C8D2 /* Build configuration list for PBXNativeTarget "Jimena's Map App" */;
+			buildPhases = (
+				EAF116141C0629430044C8D2 /* Sources */,
+				EAF116151C0629430044C8D2 /* Frameworks */,
+				EAF116161C0629430044C8D2 /* Resources */,
+				EAC0216B1C0DF5D000760675 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC0216A1C0DF5D000760675 /* PBXTargetDependency */,
+			);
+			name = "Jimena's Map App";
+			productName = "Jimena's Map App";
+			productReference = EAF116181C0629430044C8D2 /* Jimena's Map App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF116101C0629430044C8D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = RAR;
+				TargetAttributes = {
+					EAC0215F1C0DF5D000760675 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = F65NY3FY34;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					EAF116171C0629430044C8D2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = F65NY3FY34;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EAF116131C0629430044C8D2 /* Build configuration list for PBXProject "Jimena's Map App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF1160F1C0629430044C8D2;
+			productRefGroup = EAF116191C0629430044C8D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF116171C0629430044C8D2 /* Jimena's Map App */,
+				EAC0215F1C0DF5D000760675 /* SpotifyShareExt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAC0215E1C0DF5D000760675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC021671C0DF5D000760675 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF116161C0629430044C8D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF1162B1C0629430044C8D2 /* LaunchScreen.storyboard in Resources */,
+				EAC021921C0E58E100760675 /* SpotifyTrackCardView.xib in Resources */,
+				EAF116281C0629430044C8D2 /* Assets.xcassets in Resources */,
+				EAF116261C0629430044C8D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAC0215C1C0DF5D000760675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC021741C0DFB0800760675 /* SpotifyAPIClient.m in Sources */,
+				EAC021641C0DF5D000760675 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF116141C0629430044C8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF116231C0629430044C8D2 /* ViewController.m in Sources */,
+				EAF116201C0629430044C8D2 /* AppDelegate.m in Sources */,
+				EAF1161D1C0629430044C8D2 /* main.m in Sources */,
+				EA0261661C095C400018E903 /* MapViewController.m in Sources */,
+				EA82E07E1C1264D3007AB9D1 /* pinOnMapViewController.m in Sources */,
+				EAC021521C0CE36800760675 /* CrazyButtonStyleKit.m in Sources */,
+				EAC021551C0CE40000760675 /* CrazyButton.m in Sources */,
+				EAC0214F1C0BED2B00760675 /* StyleKitTestButton.m in Sources */,
+				EA82E0831C15DDD4007AB9D1 /* UserCurrentLocation.m in Sources */,
+				EAC021901C0E58C400760675 /* SpotifyTrackCardView.m in Sources */,
+				EA02616B1C0AD23E0018E903 /* StyleKitTrial.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAC0216A1C0DF5D000760675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC0215F1C0DF5D000760675 /* SpotifyShareExt */;
+			targetProxy = EAC021691C0DF5D000760675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAC021651C0DF5D000760675 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC021661C0DF5D000760675 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		EAF116241C0629430044C8D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF116251C0629430044C8D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAF116291C0629430044C8D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF1162A1C0629430044C8D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAC0216D1C0DF5D000760675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SpotifyShareExt/SpotifyShareExt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifyShareExt",
+				);
+				INFOPLIST_FILE = SpotifyShareExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RAR.Jimena-s-Map-App.SpotifyShareExt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EAC0216E1C0DF5D000760675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SpotifyShareExt/SpotifyShareExt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifyShareExt",
+				);
+				INFOPLIST_FILE = SpotifyShareExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RAR.Jimena-s-Map-App.SpotifyShareExt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EAF1162D1C0629430044C8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAF1162E1C0629430044C8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF116301C0629440044C8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Jimena's Map App/Jimena's Map App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Jimena's Map App",
+				);
+				INFOPLIST_FILE = "Jimena's Map App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RAR.Jimena-s-Map-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EAF116311C0629440044C8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Jimena's Map App/Jimena's Map App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Jimena's Map App",
+				);
+				INFOPLIST_FILE = "Jimena's Map App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RAR.Jimena-s-Map-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAC0216F1C0DF5D000760675 /* Build configuration list for PBXNativeTarget "SpotifyShareExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC0216D1C0DF5D000760675 /* Debug */,
+				EAC0216E1C0DF5D000760675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF116131C0629430044C8D2 /* Build configuration list for PBXProject "Jimena's Map App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF1162D1C0629430044C8D2 /* Debug */,
+				EAF1162E1C0629430044C8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF1162F1C0629440044C8D2 /* Build configuration list for PBXNativeTarget "Jimena's Map App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF116301C0629440044C8D2 /* Debug */,
+				EAF116311C0629440044C8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAF116101C0629430044C8D2 /* Project object */;
+}
